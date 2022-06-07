@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Portfolio Website">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Portfolio , Media-Querry">
+    <meta name="author" content="🔥Himanshu Agarwal🔥">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <script defer src="index.js"></script>
+    <title>Contact Us</title>
+</head>
+<body>
+    <header class="header">
+        <img src="images/Main -Logo-compressed.jpg" alt="My main logo" class="logo">
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li><a href="/index.html" class="navbar-link home-link">Home</a></li>
+                <li><a href="/about.html" class="navbar-link about-link">About</a></li>
+                <li><a href="/service.html" class="navbar-link service-link">Service</a></li>
+                <li><a href="/portfolio.html" class="navbar-link portfolio-link">Portfolio</a></li>
+                <li><a href="/contact.html" class="navbar-link contact-link">Contact</a></li> 
+            </ul>
+        </nav>
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+    </header>
+
+    <!-- ============= 
+Our Contact  Section
+=================-->
+<section class="section-contact section">
+    <div class="container">
+        <h2 class="common-heading">Contact Me</h2>
+    </div>
+    <div class="google-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.467007802246!2d77.49981541490948!3d28.675673582400794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf30885b1e2a5%3A0x9983675e24c6638b!2sAKGEC%3A%20Ajay%20Kumar%20Garg%20Engineering%20College%2C%20Ghaziabad!5e0!3m2!1sen!2sin!4v1653481564332!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="section-contact-main contact-container">
+        <form action="https://formspree.io/f/xzboojgy"
+        method="POST">
+            <div class="grid grid-two-column">
+                <div>
+                 <label for="username"></label>
+                 <input type="text" name="username" id="username" placeholder="Enter User Name" required autocomplete="off">
+                </div>
+                <div>
+                 <label for="email"></label>
+                 <input type="email" name="email" id="email" placeholder="xyz@gmail.com"  required autocomplete="off">
+                </div>
+            </div>
+                <div>
+                    <label for="subject"></label>
+                    <input type="text"  name="subject" id="subject" placeholder="Enter your Subject" required autocomplete="off" >
+                </div>
+
+                <div>
+                    <label for="textarea"></label>
+                    <textarea name="textarea" id="" cols="30" rows="10" placeholder="Enter your message " required autocomplete="off"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" name="submit" id="submit" class="btn" value="Send Message">
+
+                </div>
+        </form>
+    </div>
+</section>
+<!-- Footer section -->
+<footer class="section-footer section">
+    <div class=" container grid grid-four-column">
+        <div class="f-about">
+            <h3>About</h3>
+            <p>We have made several website for the various clients and god multiple time appreciations and certificates . This is our journey regarding the web Development.</p>
+        </div>
+      <!-- about-end  -->
+      <div class="f-links">
+          <h3>Links</h3>
+          <ul>
+               <li>
+                 <span><ion-icon name="caret-forward-outline"></ion-icon><span></span><a href="#">About</a>
+               </li>
+                <li> 
+                 <span><ion-icon name="caret-forward-outline"></ion-icon></span><a href="#">Services</a>
+               </li>
+               <li> 
+                  <span> <ion-icon name="caret-forward-outline"></ion-icon></span><a href="#">Portfolio</a>
+               </li>
+                <li> 
+                   <span><ion-icon name="caret-forward-outline"></ion-icon></span><a href="#">Contact</a>
+                </li>
+          </ul>
+      </div>
+      <div class="f-services">
+          <h3>Services</h3>
+          <ul>
+             <li> 
+               <span><ion-icon name="caret-forward-outline"></ion-icon></span><a href="#">Web Development</a>
+             </li>
+              <li> 
+               <span><ion-icon name="caret-forward-outline"></ion-icon></span><a href="#">Blockchain Development</a>
+              </li>
+              <!-- <li> 
+               <span><ion-icon name="caret-forward-outline"></ion-icon></span><a href="#">Crypto Analyst</a>
+              </li> -->
+             <li> 
+               <span><ion-icon name="caret-forward-outline"></ion-icon></span><a href="#">Cyber Security</a>
+              </li>
+              <li> 
+               <span><ion-icon name="caret-forward-outline"></ion-icon></span><a href="#">Competitive Programmer</a>
+              </li>
+         </ul>
+      </div>
+      <div class="f-personal-details">
+          <h3>Have a Question?</h3>
+          <address>
+              <div>
+                  <p><span><ion-icon name="location-outline"></ion-icon></span>
+                 Ghaziabad,Delhi NCR</p>
+              </div>
+              <div>
+                <p><span><ion-icon name="call-outline"></ion-icon></span><a href="tel:+918445393201">+918445393201</a></p>
+              </div>
+            </address>
+      </div>  
+    </div>
+    <div class="container">
+        <div class="f-social-icons">
+            <a href="https://www.instagram.com/the_spritual_boy" target="_blank" ><ion-icon name="logo-instagram" class="icon"></ion-icon></a>
+
+            <a href="https://www.linkedin.com/in/himanshu-agarwal-48b615211" target="_blank"><ion-icon name="logo-linkedin" class="icon"></ion-icon></a>
+
+            <a href="https://www.github.com/Himanshu442001" target="_blank"><ion-icon name="logo-github" class="icon"></ion-icon></a>
+        </div>
+        <div class="f-credits">
+            <p> Copyright ©2022 All rights reserved | This Website is made by 🔥 Weby Himanshu🔥</p>
+        </div>
+    </div>
+</footer>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

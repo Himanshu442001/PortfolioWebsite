@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Portfolio Website">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Portfolio , Media-Querry">
+    <meta name="author" content="🔥Himanshu Agarwal🔥">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio website</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <script defer src="index.js"></script>
+</head>
+<body >
+    <!-- Nav-Bar -->
+    <header class="header">
+        <img src="images/Main -Logo-compressed.jpg" alt="My main logo" class="logo">
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li><a href="#" class="navbar-link home-link">Home</a></li>
+                <li><a href="/about.html" class="navbar-link about-link">About</a></li>
+                <li><a href="/service.html" class="navbar-link service-link">Service</a></li>
+                <li><a href="/portfolio.html" class="navbar-link portfolio-link">Portfolio</a></li>
+                <li><a href="/contact.html" class="navbar-link contact-link">Contact</a></li> 
+            </ul>
+        </nav>
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+
+    </header>
+    <!-- Main Hero section --> 
+    <main>
+        <section class="section-hero section">
+            <div class="container grid grid-two-column">
+                <div class="hero-data">
+                    <p class="hero-top-data">
+                        this is me
+                    </p>
+                    <h1 class="hero-heading">weby himanshu</h1>
+                    <p class="hero-para">
+                        I'm Himanshu Vinod Agarwal a fulll stack web Developer, also I am a Blockchain Developer
+                    </p>
+                    <div>
+                        <a href="#contact" class="btn hireme-btn">Hire me</a>
+
+                    </div>
+                </div>
+
+                  <!-- hero section right side -->
+
+                    <div class="section-hero-image">
+                        <img src="images/Hero-img1-compressed.jpg" alt="My Hero Image" class="hero-image"
+                         loading="lazy">
+                    </div>
+            </div>  
+        </section>
+  </main>
+<!-- ============= 
+Our Bio-Data Section
+=================-->
+<section class="section-Bio-data section">
+    <div class="container grid grid-two-column">
+        <div class="bio-image">
+            <img src="images/image1-compressed.jpg" alt="My Bio Image">
+        </div>
+        <!-- Bio-data right side part -->
+        <div class="bio-data">
+            <h2 class="common-heading">
+                My Bio-Data
+            </h2>
+            <p>
+                I have started Web Development six months ago . From than to till now I have include following skills in my journey of Web Developer and a programmer.....
+            </p>
+            <br>
+            <p>
+             Also i have done a bit of reasarch about Blockchain Development... which has enhanced my development carrear a lot 
+            </p>
+            <div class="bio-data-stats">
+                <div class="bio-stats">
+                    <h3>Javascript</h3>
+                    <div class="bio-progress-bar bio-progress-1">
+                        <span>82%</span>
+                    </div>
+                </div>
+                <div class="bio-stats">
+                    <h3>HTML</h3>
+                    <div class="bio-progress-bar bio-progress-2">
+                        <span>90%</span>
+                    </div>
+                </div>
+                <div class="bio-stats">
+                    <h3>CSS</h3>
+                    <div class="bio-progress-bar bio-progress-3">
+                        <span>55%</span>
+                    </div>
+                </div>
+                <div class="bio-stats">
+                    <h3>React</h3>
+                    <div class="bio-progress-bar bio-progress-4 ">
+                        <span>40%</span>
+                    </div>
+                </div>
+                <div class="bio-stats">
+                    <h3>ES6</h3>
+                    <div class="bio-progress-bar bio-progress-5">
+                        <span>70%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="bio-btn">
+                <a href="#" class="btn hireme-btn" >Download CV</a>
+
+            </div>
+        </div> 
+    </div>  
+</section>
+<!-- portfolio and my project section -->
+<section class="section-prtfolio  section" id="prtfolio-sction">
+<div class="container">
+    <h2 class="common-heading">My Work</h2>
+    <p>
+    This is the section in which i have include my projects which i have made in my Web Development carrear......
+    </p>
+</div>
+<div class="p-btns">
+    <div class="btn p-btn" data-btn-num ="1">Front-End projects</div>
+    <div class="btn p-btn" data-btn-num ="2">React projects</div>
+    <div class="btn p-btn" data-btn-num ="3">Backend projects</div>
+</div>
+<div class="container grid grid-three-column portfolio-images">
+ <div class="image-overlay p-btn--1">
+ <img src="images/1-compressed.jpg" alt="first image" loading = "lazy"/>
+ <div class="overlay">
+ <a href="https://stopwatch-1.netlify.app/" target="_himanshu" class="common-heading" >Project-1</a>
+ </div>
+ </div>
+
+ <div class="image-overlay p-btn--2">
+    <img src="images/2-compressed.jpg" alt="second image" loading = "lazy"/>
+    <div class="overlay">
+    <a href="https://stopwatch-1.netlify.app/" target="_himanshu" class="common-heading" >Project-2</a>
+    </div>
+    </div>
+
+    <div class="image-overlay p-btn--3">
+        <img src="images/2-compressed.jpg" alt="third image" loading = "lazy"/>
+        <div class="overlay">
+        <a href="https://stopwatch-1.netlify.app/" target="_himanshu" class="common-heading" >Project-3</a>
+        </div>
+    </div>
+
+        <div class="image-overlay p-btn--1">
+            <img src="images/1-compressed.jpg" alt="first image" loading = "lazy"/>
+            <div class="overlay">
+            <a href="https://stopwatch-1.netlify.app/" target="_himanshu" class="common-heading" >Project-4</a>
+            </div>
+        </div>
+        <div class="image-overlay p-btn--1">
+            <img src="images/2-compressed.jpg" alt="first image" loading = "lazy"/>
+            <div class="overlay">
+            <a href="https://stopwatch-1.netlify.app/" target="_himanshu" class="common-heading" >Project-5</a>
+            </div>
+        </div>
+        <div class="image-overlay p-btn--1">
+            <img src="images/1-compressed.jpg" alt="first image" loading = "lazy"/>
+            <div class="overlay">
+            <a href="https://stopwatch-1.netlify.app/" target="_himanshu" class="common-heading" >Project-6</a>
+            </div>
+        </div>
+</div>
+</section>
+
+
+<!-- ============= 
+counter Section
+=================-->
+<section class="section-work-data section">
+    <div class="container grid grid-four-column">
+        <div>
+            <h2 class="counter-number" data-number ="2000">0+</h2>
+            <p>Project Completed</p>
+        </div>
+        <div>
+            <h2 class="counter-number" data-number="1000">0+</h2>
+            <p>Happy Clients</p>
+        </div>
+        <div>
+            <h2 class="counter-number" data-number="4000">0+</h2>
+            <p>Ultra Developer</p>
+        </div>
+        <div>
+            <h2 class="counter-number" data-number="5000">0+</h2>
+            <p>Proffesional Developer</p>
+        </div>
+    </div>
+</section>
+
+<!-- ============= 
+Animated service  Section
+=================-->
+<section class="section-service-offer section">
+    <div class="container">
+        <h2 class="common-heading">  Service Offer </h2>
+        <p>
+            There are the following services which is being offered by me. Some of the Important services are listed below:
+        </p>
+    </div>
+    <div class="container grid grid-three-column">
+        <div class="service-box">
+            <ion-icon name="logo-android" class="service-icon"></ion-icon>
+            <h3>Android Development</h3>
+            <p>
+                "Android is one of thr most economical and most used operating system in the app development."
+            </p>
+        </div>
+        <div class="service-box">
+            <ion-icon name="logo-apple" class="service-icon"></ion-icon>
+            <h3>Mac Development</h3>
+            <p>
+               "Mac operating system is owned by the apple .It is one of the best and most expensive operating system."
+            </p>
+        </div>
+        <div class="service-box">
+            <ion-icon name="logo-youtube" class="service-icon"></ion-icon>
+            <h3>Youtube Development</h3>
+            <p>
+                "Youtube is the social media tech giant owned by the google .I make videos on youtube for web development free of cost"
+            </p>
+        </div>
+        <div class="service-box">
+            <ion-icon name="logo-react" class="service-icon"></ion-icon>
+            <h3>React Development</h3>
+            <p>
+                "React is an important and most used library of javascript which is mostly used by the Front-End web Developers."
+            </p>
+        </div>
+        <div class="service-box">
+            <ion-icon name="logo-python" class="service-icon"></ion-icon>
+            <h3>Python Programming</h3>
+            <p>
+                "Python is one of the most user friendly and High level language . Python has variety of uses in various fields such as Blockchain Development and Machine Learning."
+            </p>
+        </div>
+        <div class="service-box">
+            <ion-icon name="logo-javascript" class="service-icon"></ion-icon>
+            <h3>Javascript Development</h3>
+            <p>
+               "Javascript is one of tthe most important language used in the Website development."
+            </p>
+        </div>
+    </div>
+</section>
+<!-- ============= 
+Testimonial and appreciation section  Section
+=================-->
+<section class="section-testimonial section">
+    <div class="container">
+        <h2 class="common-heading">Appreciation</h2>
+    </div>
+    <div class="swiper mySwiper container">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+              <div class="swiper-client-msg">
+                  <p>
+                    <!-- <i class="fa-solid fa-quote-left quote-icon" ></i> -->
+                      It was an amazing feeling to work with Himanshu Agarwal. I am deeply impressed by his development skills and his humble and polite behaviour. Wishing  him all the bset for his bright future ahead.
+                      <!-- <i class="fa-solid fa-quote-right quote-icon"></i> -->
+                  </p>
+              </div>
+              <div class="swiper-client-data grid grid-two-column">
+                  <figure>
+                      <img src="images/client-img-folder/Client-img-1-min.jpeg" alt="client-image " loading = "lazy">
+                  </figure>
+                 
+                  <div class="client-data-details">
+                      <p>Anubhav Baranwal</p>
+                      <p>Enterprenur</p>
+                  </div>
+              </div>
+
+
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+                <p>
+                    It was an amazing feeling to work with Himanshu Agarwal. I am deeply impressed by his development skills and his humble and polite behaviour. Wishing  him all the bset for his bright future ahead.
+                </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+                <figure>
+                    <img src="images/client-img-folder/Client-img-2-min.jpeg" alt="client-image" loading = "lazy">
+                </figure>
+               
+                <div class="client-data-details">
+                    <p>Priyanshu Solanki</p>
+                    <p>Enterprenur</p>
+                </div>
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+                <p>
+                    It was an amazing feeling to work with Himanshu Agarwal. I am deeply impressed by his development skills and his humble and polite behaviour. Wishing  him all the bset for his bright future ahead.
+                </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+                <figure>
+                    <img src="images/client-img-folder/Client-img-3-min.jpeg" alt="client-image" loading = "lazy">
+                </figure>
+               
+                <div class="client-data-details">
+                    <p>Mukund Tiwari</p>
+                    <p>Enterprenur</p>
+                </div>
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+                <p>
+                    It was an amazing feeling to work with Himanshu Agarwal. I am deeply impressed by his development skills and his humble and polite behaviour. Wishing  him all the bset for his bright future ahead.
+                </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+                <figure>
+                    <img src="images/client-img-folder/Client-img-4-min.jpeg" alt="client-image" loading = "lazy">
+                </figure>
+               
+                <div class="client-data-details">
+                    <p>Ashish Bajpai</p>
+                    <p>Enterprenur</p>
+                </div>
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+                <p>
+                    It was an amazing feeling to work with Himanshu Agarwal. I am deeply impressed by his development skills and his humble and polite behaviour. Wishing  him all the bset for his bright future ahead.
+                </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+                <figure>
+                    <img src="images/client-img-folder/Client-img-1-min.jpeg" alt="client-image" loading = "lazy">
+                </figure>
+               
+                <div class="client-data-details">
+                    <p>Anubhav Baranwal</p>
+                    <p>Enterprenur</p>
+                </div>
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+                <p>
+                    It was an amazing feeling to work with Himanshu Agarwal. I am deeply impressed by his development skills and his humble and polite behaviour. Wishing  him all the bset for his bright future ahead.
+                </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+                <figure>
+                    <img src="images/client-img-folder/Client-img-2-min.jpeg" alt="client-image" loading = "lazy">
+                </figure>
+               
+                <div class="client-data-details">
+                    <p>Priyanshu Solanki</p>
+                    <p>Enterprenur</p>
+                </div>
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+                <p>
+                    It was an amazing feeling to work with Himanshu Agarwal. I am deeply impressed by his development skills and his humble and polite behaviour. Wishing  him all the bset for his bright future ahead.
+                </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+                <figure>
+                    <img src="images/client-img-folder/Client-img-3-min.jpeg" alt="client-image" loading = "lazy">
+                </figure>
+               
+                <div class="client-data-details">
+                    <p>Mukund Tiwari</p>
+                    <p>Enterprenur</p>
+                </div>
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+                <p>
+                    It was an amazing feeling to work with Himanshu Agarwal. I am deeply impressed by his development skills and his humble and polite behaviour. Wishing  him all the bset for his bright future ahead.
+                </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+                <figure>
+                    <img src="images/client-img-folder/Client-img-4-min.jpeg" alt="client-image" loading = "lazy">
+                </figure>
+               
+                <div class="client-data-details">
+                    <p>Ashish Bajpai</p>
+                    <p>Enterprenur</p>
+                </div>
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+                <p>
+                    It was an amazing feeling to work with Himanshu Agarwal. I am deeply impressed by his development skills and his humble and polite behaviour. Wishing  him all the bset for his bright future ahead.
+                </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+                <figure>
+                    <img src="images/client-img-folder/Client-img-1-min.jpeg" alt="client-image" loading = "lazy">
+                </figure>
+               
+                <div class="client-data-details">
+                    <p>Anubhav Baranwal</p>
+                    <p>Enterprenur</p>
+                </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+</section>
+<!-- =========
+Free Lancing section==== -->
+<section class="section-freelancing section">
+    <div class="overlay"></div>
+    <div class="container">
+        <h2>I am <span>Available</span> for Free lancing</h2>
+        <p>I am A Front-End web Developer with experience of more than six months and I am Available for freelancing at reasonable stipend.</p>
+   
+     <a href="./contact.html" class="btn">HIRE ME</a>
+    </div>
+</section>
+
+<!-- ======
+===contact-form -->
+<section class="section-contact section">
+    <div class="container">
+        <h2 class="common-heading">Contact Me</h2>
+    </div>
+    <div class=" section-contact-main contact-container">
+        <form action="https://formspree.io/f/xzboojgy"
+        method="POST">
+            <div class="grid grid-two-column">
+                <div>
+                 <label for="username"></label>
+                 <input type="text" name="username" id="username" placeholder="Enter User Name" required autocomplete="off">
+                </div>
+                <div>
+                 <label for="email"></label>
+                 <input type="email" name="email" id="email" placeholder="xyz@gmail.com"  required autocomplete="off">
+                </div>
+            </div>
+                <div>
+                    <label for="subject"></label>
+                    <input type="text"  name="subject" id="subject" placeholder="Enter your Subject" required autocomplete="off" >
+                </div>
+
+                <div>
+                    <label for="textarea"></label>
+                    <textarea name="textarea" id="" cols="30" rows="10" placeholder="Enter your message " required autocomplete="off"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" name="submit" id="submit" class="btn" value="Send Message">
+
+                </div>
+        </form>
+    </div>
+</section>
+<!-- footer section -->
+<footer class="section-footer section">
+    <div class=" container grid grid-four-column">
+        <div class="f-about">
+            <h3>About</h3>
+            <p>We have made several website for the various clients and god multiple time appreciations and certificates . This is our journey regarding the web Development.</p>
+        </div>
+      <!-- about-end  -->
+      <div class="f-links">
+          <h3>Links</h3>
+          <ul>
+               <li>
+                 <span><ion-icon name="caret-forward-outline"></ion-icon><span></span><a href="#">About</a>
+               </li>
+                <li> 
+                 <span><ion-icon name="caret-forward-outline"></ion-icon></span><a href="#">Services</a>
+               </li>
+               <li> 
+                  <span> <ion-icon name="caret-forward-outline"></ion-icon></span><a href="#">Portfolio</a>
+               </li>
+                <li> 
+                   <span><ion-icon name="caret-forward-outline"></ion-icon></span><a href="#">Contact</a>
+                </li>
+          </ul>
+      </div>
+      <div class="f-services">
+          <h3>Services</h3>
+          <ul>
+             <li> 
+               <span><ion-icon name="caret-forward-outline"></ion-icon></span><a href="#">Web Development</a>
+             </li>
+              <li> 
+               <span><ion-icon name="caret-forward-outline"></ion-icon></span><a href="#">Blockchain Development</a>
+              </li>
+              <!-- <li> 
+               <span><ion-icon name="caret-forward-outline"></ion-icon></span><a href="#">Crypto Analyst</a>
+              </li> -->
+             <li> 
+               <span><ion-icon name="caret-forward-outline"></ion-icon></span><a href="#">Cyber Security</a>
+              </li>
+              <li> 
+               <span><ion-icon name="caret-forward-outline"></ion-icon></span><a href="#">Competitive Programmer</a>
+              </li>
+         </ul>
+      </div>
+      <div class="f-personal-details">
+          <h3>Have a Question?</h3>
+          <address>
+              <div>
+                  <p><span><ion-icon name="location-outline"></ion-icon></span>
+                 Ghaziabad,Delhi NCR</p>
+              </div>
+              <div>
+                <p><span><ion-icon name="call-outline"></ion-icon></span><a href="tel:+918445393201">+918445393201</a></p>
+              </div>
+            </address>
+      </div>  
+    </div>
+    <div class="container">
+        <div class="f-social-icons">
+            <a href="https://www.instagram.com/the_spritual_boy" target="_blank" ><ion-icon name="logo-instagram" class="icon"></ion-icon></a>
+
+            <a href="https://www.linkedin.com/in/himanshu-agarwal-48b615211" target="_blank"><ion-icon name="logo-linkedin" class="icon"></ion-icon></a>
+
+            <a href="https://www.github.com/Himanshu442001" target="_blank"><ion-icon name="logo-github" class="icon"></ion-icon></a>
+        </div>
+        <div class="f-credits">
+            <p> Copyright ©2022 All rights reserved | This Website is made by 🔥 Weby Himanshu🔥</p>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+</body>
+</html>
